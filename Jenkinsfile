@@ -4,13 +4,13 @@ pipeline {
         stage('sample1') {
           steps {
             echo 'summition'
-            bat 'mvn test'
+            bat 'python sample.py'
           }
         }
         stage('sample 2') { 
             steps { 
                echo 'addition...' 
-               bat 'mvn package'
+             //  bat 'mvn package'
             }
         }
    
