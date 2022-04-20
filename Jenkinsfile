@@ -10,7 +10,7 @@ pipeline {
         stage('sample 2') { 
             steps { 
                echo 'addition...' 
-              bat 'mvn package'
+              //bat 'mvn package'
             }
         }
    
